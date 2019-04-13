@@ -7,3 +7,13 @@
     justify-content: center;
     cursor: pointer;
 }
+
+#inputimage {
+    height: 360px;
+}
+
+@media screen and (max-width: 380px) {
+    #inputimage {
+        width: 100%;
+    }
+}
